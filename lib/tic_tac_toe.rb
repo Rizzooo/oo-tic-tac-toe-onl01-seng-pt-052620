@@ -38,6 +38,7 @@ class TicTacToe
   def turn_count
     turn = 0 
     @board.each do |index| 
+<<<<<<< HEAD
       if index == "X" || index == "O"
         turn += 1 
       end
@@ -127,6 +128,12 @@ class TicTacToe
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
+=======
+      if index == "X" || "O"
+        turn += 1 
+      end
+    turn
+>>>>>>> d9d97e2ebc0dfdb72bb8df8357edbaf08048e57c
     end
   end
 end
